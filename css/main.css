@@ -10,6 +10,7 @@
 /* /reset */
 
 body{
+    height: 100%;
     font-family: 'Roboto', sans-serif;
     color: #787878;
     background-color: #1B2473;
@@ -40,7 +41,7 @@ body{
         font-size: 28px;
     }
     .main{
-        height: 100%;
+        height: 100vh;
     }
     .form{
         width: 600px;
