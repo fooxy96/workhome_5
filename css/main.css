@@ -19,7 +19,6 @@ body{
 
 .main{
     width: 100vw;
-    height: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -40,6 +39,9 @@ body{
     input{
         font-size: 28px;
     }
+    .main{
+        height: 100%;
+    }
     .form{
         width: 600px;
         min-height: 412px;
@@ -51,6 +53,9 @@ body{
 @media screen and (max-width: 768px){
     input{
         font-size: 14px;
+    }
+    .main{
+        height: 100%;
     }
     .form{
         width: 100%;
