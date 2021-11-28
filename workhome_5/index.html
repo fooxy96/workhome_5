@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Домашнее задание 10</title>
+</head>
+<body>
+<main class="main">
+    <form class="form" id="form">
+        <h1>Регистрация</h1>
+        <div class="form__email">
+            <label for="input-email" class="label-email">E-mail</label>
+            <input id="input-email" type="email" name="email" placeholder="Введите email">
+            <span class="inputEmailNotice"></span>
+        </div>
+        <div class="form__pass">
+            <label for="input-pass" class="label-pass">Пароль</label>
+            <input id="input-pass" type="password" name="password" placeholder="Введите пароль">
+            <span class="inputPassNotice"></span>
+        </div>
+        <div class="form__agreement">
+            <input class="form__checkbox-hiden" type="checkbox" name="checkbox" id="form-checkbox">
+            <label for="form-checkbox" class="form__checkbox"></label>
+            <span class="form__acept">Я согласен с <a href="#">Правилами пользования приложением</a></span>
+            <span class="inputCheckboxNotice"></span>
+        </div>
+        <button type="submit" class="button">Регистрация</button>
+    </form>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
